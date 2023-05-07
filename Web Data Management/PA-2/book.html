@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styling.css">
+    <style>
+        @media screen and (max-width: 600px) {
+            .heading2 {
+                text-align: center;
+                font-size: 10px;
+            }
+
+            form {
+                width: 100%;
+                border-radius: 0%;
+                font-size: 15px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <!-- html code for heading2 -->
+    <div class="heading2">
+        <h2>Simply fill out the form1 below and we'll be in touch.</h2>
+    </div>
+    <!-- html code for form1 -->
+    <div class="form1">
+        <form>
+            <label for="fname">First name:</label><br>
+            <input type="text" id="fname" name="fname" value=""><br><br>
+            <label for="lname">Last name:</label><br>
+            <input type="text" id="lname" name="lname" value=""><br><br>
+            <label for="emailid">Email:</label><br>
+            <input type="email" id="emailid" name="emailid" value=""><br><br>
+            <label for="num">Number:</label><br>
+            <input type="text" id="num" name="num" value=""><br><br>
+            <label for="adddress">Address:</label><br>
+            <input type="text" id="address" name="address" value=""><br><br>
+            <label for="city">City:</label><br>
+            <input type="text" id="city" name="city" value=""><br><br>
+            <label for="state">State:</label><br>
+            <input type="text" id="state" name="state" value=""><br><br>
+            <label for="zip">ZIP:</label><br>
+            <input type="text" id="zip" name="zip" value=""><br><br>
+            <label for="date">Select A Date:</label><br>
+            <input type="date" id="date" name="date"> <br><br>
+            <label for="cars">Choose a Service:</label><br>
+            <select name="Select a Service" size="1">
+                <option value="1"> INDIVIDUAL LEASES </option>
+                <option value="2"> LEASE TERM & RENTAL INSTALLMENTS </option>
+                <option value="3"> APPLICATION PROCESS </option>
+                <option value="4"> ROOMMATE MATCHING & REQUESTS </option>
+            </select>
+            <br><br>
+            <input type="submit" class="fcc-btn" name="myInput" value="Submit">
+        </form>
+    </div>
+</body>
+
+</html>

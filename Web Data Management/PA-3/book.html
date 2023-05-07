@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styling.css">
+    
+    <style>
+        @media screen and (max-width: 600px) {
+            .heading2 {
+                text-align: center;
+                font-size: 10px;
+            }
+
+            form {
+                width: 100%;
+                border-radius: 0%;
+                font-size: 15px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <!-- html code for heading2 -->
+    <script src="myScript.js"></script>
+    <div class="heading2">
+        <h2>Simply fill out the form below and we'll be in touch.</h2>
+    </div>
+    <!-- html code for form1 -->
+    <div class="form1">
+        <!-- <form onsubmit="regEx(); return false">-->
+        <form id="reg" method="post" onsubmit="return validation()">
+            <div id="parent">
+                <!-- This is the main container, to mouse over -->
+                <label for="fname">First name:</label><br>
+                <div id="popup">• Only string with min 3 chars and max 20 chars</div>
+                <input type="text" id="fname" name="fname" value="" pattern="^[A-Za-z.]{3,20}$" required><br><br>
+            </div>
+            <div id="parent">
+                <!-- This is the main container, to mouse over -->
+                <label for="lname">Last name:</label><br>
+                <div id="popup">• Only string with min 3 chars and max 20 chars</div>
+                <input type="text" id="lname" name="lname" value="" pattern="^[A-Za-z.]{3,20}$" required><br><br>
+            </div>
+            <div id="parent">
+                <!-- This is the main container, to mouse over -->
+                <label for="emailid">Email:</label><br>
+                <div id="popup">• Uppercase and lowercase letters (A-Z and a-z)<br>• Numeric characters (0-9)<br>
+                    • Special characters - ! # $ % & ' * + - / = ? ^ _ ` { | } ~<br>
+                    • Period, dot, or full stop (.) that cannot be the first or last letter of the email </div>
+                <input type="email" id="emailid" name="emailid" value="" required><br><br>
+                <span id="one" class="text-danger font-weight-bold"></span>
+            </div>
+            <div id="parent">
+                <!-- This is the main container, to mouse over -->
+                <label for="password">Password:</label><br>
+                <div id="popup">• A password should be alphanumeric.<br>• First letter of the password should be
+                    capital.<br>
+                    • Password must contain a special character (@, $, !, &,
+                    etc).<br>• Password length must be greater than 8 characters.</div>
+                <input type="password" id="password" name="password" value="" required><br><br>
+                <span id="two" class="text-danger font-weight-bold"></span>
+            </div>
+            <div id="parent">
+                <!-- This is the main container, to mouse over -->
+                <label for="num">Number:</label><br>
+                <div id="popup">The sequence must be in one of these formats:<br>
+                    o (123)-456-7890<br>
+                    o 123-456-7890<br>
+                    o 123456-7890</div>
+                <input type="text" id="num" name="num" value="" required><br><br>
+                <span id="five" class="text-danger font-weight-bold"></span>
+            </div>
+            <div id="parent">
+                <!-- 3344 W Alameda Avenue, Lakewood, CO 80222 -->
+                <label for="address">Address:</label><br>
+                <div id="popup">Street Name, apt#, City, State, Area Code (zip code)</div>
+                <input type="text" id="address" name="address" value="" required><br><br>
+                <span id="three" class="text-danger font-weight-bold"></span>
+            </div>
+            <div id="parent">
+                <!-- This is the main container, to mouse over -->
+                <label for="date">Select A Date:</label><br>
+                <div id="popup">mm/ dd /yyyy or mm-dd-yyyy</div>
+                <input type="text" id="date" name="date" required onchange="dateval()"> <br><br>
+                <span id="four" class="text-danger font-weight-bold"></span>
+            </div>
+            <label for="myCheck">Do you want to select a service??</label><br>
+            <input type="radio" name="radio1" id="myCheck" onclick="myCheckbox()">
+            <label for="service">Yes<br>
+                <input type="radio" name="radio1" id="myCheck1" onclick="myCheckbox()">
+                <label for="service">No<br><br>
+                    <select id="list1" disabled name="Service" size="1">
+                        <option value="" disabled selected>--select--</option>
+                        <option value="1"> INDIVIDUAL LEASES </option>
+                        <option value="2"> LEASE TERM & RENTAL INSTALLMENTS </option>
+                        <option value="3"> APPLICATION PROCESS </option>
+                        <option value="4"> ROOMMATE MATCHING & REQUESTS </option>
+                    </select>
+                </label>
+                <div id="parent">
+                    <p>Is there anything else that you want to mention:</p>
+                    <!--<textarea id="tarea" name="comments" cols="50" rows="10" class="html-text-box" minlength="10"
+                        maxlength="100" onkeyup="counter(this);"></textarea>
+                    <div id="counter_div">0/100</div>-->
+                    <textarea id="tarea" name="comments" cols="50" rows="5" class="html-text-box" minlength="10"
+                        maxlength="100" onchange="checkLength()" onkeyup="counter(this);"></textarea>
+                    <div id="counter_div">0/100</div>
+                </div>
+                <p><input type="reset" value="Reset Form" class="fcc-btn1"></p>
+                <br><br>
+                <input type="submit" class="fcc-btn" name="myInput" value="Submit">
+        </form>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,354 @@
+/* Home */
+/* Body background */
+body {
+  background-color: #968989;
+}
+/* styling for textblock */
+.container {
+  position: relative;
+}
+/* styling for video */
+.video {
+  margin-top: 5%;
+  text-align: center;
+  overflow: hidden;
+}
+.text-block {
+  text-align: center;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  background-color: black;
+  color: white;
+  text-transform: capitalize;
+  font-family: helvetica;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 28px;
+  padding-left: 20px;
+  padding-right: 20px;
+  opacity: 0.6;
+}
+/* styling for heading */
+.heading {
+  text-align: center;
+  background-color: #040d25;
+  width: 100%;
+  height: 100px;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  text-decoration: none;
+  letter-spacing: 1px;
+  word-spacing: 2px;
+  text-transform: capitalize;
+  font-family: helvetica;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 28px;
+  font-variant: normal;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  transition: all 1s ease-out;
+}
+.heading:hover {
+  background-color: #fff;
+  color: #333;
+}
+/* styling for nav bar */
+.nav {
+  text-decoration: none;
+  margin-top: 14px;
+  color: #000000;
+  text-align: center;
+  letter-spacing: 1px;
+  word-spacing: 2px;
+  text-transform: capitalize;
+  font-family: helvetica;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  font-variant: normal;
+  text-transform: capitalize;
+}
+.aa {
+  opacity: 1;
+  transition: opacity 2s easeIn 0s;
+}
+.button {
+  text-align: center;
+}
+.aa:hover {
+  opacity: 0.6;
+  background-color: rgb(114, 107, 121);
+}
+/* styling for book button */
+.btn {
+  background-color: #1243bd;
+  color: white;
+  padding: 15px 25px;
+  text-decoration: none;
+  text-align: center;
+  opacity: 1;
+  transition: opacity 2s easeIn 0s;
+}
+.btn:hover {
+  padding: 20px 30px;
+  opacity: 0.6;
+  background-color: rgb(44, 89, 210);
+}
+/* styling for features(dropdown) */
+.dd {
+  text-align: center;
+  letter-spacing: 1px;
+  word-spacing: 2px;
+  text-transform: capitalize;
+  font-family: helvetica;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  font-variant: normal;
+}
+/* Pricing */
+/* styling for heading1 */
+.heading1 {
+  text-align: center;
+  background-color: #000000;
+  width: 100%;
+  height: 100px;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  text-decoration: none;
+  letter-spacing: 1px;
+  word-spacing: 2px;
+  text-transform: capitalize;
+  font-family: helvetica;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 28px;
+  font-variant: normal;
+  text-decoration: none;
+  text-transform: capitalize;
+  color: rgb(255, 255, 255);
+}
+/* styling for body */
+.body {
+  background: radial-gradient(#13b7afdb 0%, #fff 100%);
+}
+/* styling for details class */
+/* styling for details class */
+.details {
+  margin-top: 12px;
+  font-size: 20px;
+  text-transform: capitalize;
+  font-family: helvetica;
+  font-style: normal;
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  animation: det 2s linear 0s 1 normal none;
+}
+.details .info {
+  width: 50%;
+  text-align: center;
+  margin-top: 120px;
+  font-size: 30px;
+  float: left;
+  text-transform: capitalize;
+  font-family: helvetica;
+  font-style: normal;
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+}
+.details .image {
+  width: 50%;
+  text-align: center;
+  margin-top: 120px;
+  margin-right: 10%;
+  width: 300px;
+  height: 200px;
+  float: right;   /* Floating pictures */
+  color: rgb(0, 0, 0);
+}
+@keyframes det {
+  0% {
+    transform: scale(0.5);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+/* Booking Form */
+/* styling for option and label tags */
+option,
+label {
+  color: hsl(0, 0%, 0%);
+  text-align: center;
+}
+/* styling for heading2 */
+.heading2 {
+  text-align: center;
+  background-color: hsl(0, 0%, 0%);
+  width: 100%;
+  height: 85px;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  color: aliceblue;
+}
+/* styling for form */
+.form1 {
+  text-align: center;
+  position: relative;
+  top: 100px;
+  border: 1px solid #6d6d6d;
+  padding: 3px;
+  margin: 2px;
+  border-radius: 3px;
+  box-shadow: 4px 4px 5px #121111;
+}
+/* styling for submit button */
+.fcc-btn {
+  background-color: #1243bd;
+  color: white;
+  padding: 15px 25px;
+  text-decoration: none;
+  opacity: 1;
+  transition: opacity 2s easeIn 0s;
+}
+.fcc-btn:hover {
+  padding: 20px 30px;
+  opacity: 0.6;
+  background-color: rgb(44, 89, 210);
+}
+/* Contact Us  */
+/* styling for text shadow */
+.demotext {
+  color: #ffffff;
+  text-shadow: #83eaffe2 1px 3px 1px;
+}
+/* styling for background image */
+.bgImageContainer {
+  background-image: url("bg1.png");
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  -webkit-filter: blur(6px);
+  z-index: -1;
+  position: absolute;
+  transform: scaleX(1);
+  transform: scaleY(0.9);
+}
+/* styling for heading3 */
+.heading3 {
+  text-align: center;
+  background-color: #000000;
+  width: 100%;
+  height: 100px;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  text-decoration: none;
+  letter-spacing: 1px;
+  word-spacing: 2px;
+  text-transform: capitalize;
+  font-family: helvetica;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 28px;
+  font-variant: normal;
+  text-decoration: none;
+  text-transform: capitalize;
+  color: rgb(255, 255, 255);
+}
+/* styling for details1 */
+.details1 {
+  text-align: center;
+  margin-top: 120px;
+  font-size: 30px;
+  text-transform: capitalize;
+  font-family: helvetica;
+  font-style: normal;
+  color: rgb(36, 174, 229);
+  font-weight: 800;
+  transition: transform 1s;
+}
+.details1:hover,
+.hours:hover {
+  transform: rotate(360deg);
+}
+/* styling for working hrs */
+.hours {
+  position: relative;
+  text-align: center;
+  margin-top: 100px;
+  color: rgb(36, 174, 229);
+  font-size: 30px;
+  text-transform: capitalize;
+  font-family: helvetica;
+  font-style: normal;
+  font-weight: 800;
+  transition: transform 1s;
+}
+/* Gallery  */
+/* referenced code */
+/* splitting gallery page into 3 columns */
+#gallery {
+  line-height: 0;
+  -webkit-column-count: 3;
+  -webkit-column-gap: 5px;
+  -moz-column-count: 3;
+  -moz-column-gap: 5px;
+  column-count: 3;
+  column-gap: 5px;
+}
+/* styling images */
+#gallery img {
+  filter: grayscale(100%);
+  transition: filter 2s;
+  width: 100%;
+  height: auto;
+  margin-bottom: 5px;
+}
+@media (max-width: 1200px) {
+  #gallery {
+    -moz-column-count: 4;
+    -webkit-column-count: 4;
+    column-count: 4;
+  }
+}
+@media (max-width: 1000px) {
+  #gallery {
+    -moz-column-count: 3;
+    -webkit-column-count: 3;
+    column-count: 3;
+  }
+}
+@media (max-width: 800px) {
+  #gallery {
+    -moz-column-count: 2;
+    -webkit-column-count: 2;
+    column-count: 2;
+  }
+}
+@media (max-width: 400px) {
+  #gallery {
+    -moz-column-count: 1;
+    -webkit-column-count: 1;
+    column-count: 1;
+  }
+}
+#gallery img:hover {
+  filter: none;
+}
+.heading4 {
+  text-align: center;
+  background-color: #000000;
+  width: 100%;
+  height: 85px;
+  color: aliceblue;
+}

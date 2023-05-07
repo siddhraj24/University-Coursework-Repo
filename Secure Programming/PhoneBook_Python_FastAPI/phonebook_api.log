@@ -1,0 +1,15 @@
+2023-04-21 18:53:29,698 - phonebook_api - INFO - Received POST request for /PhoneBook/add with data full_name='Siddhraj Solanki' phone_number='+1(703)111-2121' token='string'
+2023-04-21 18:53:29,699 - phonebook_api - INFO - Person added successfully
+2023-04-21 19:27:55,974 - phonebook_api - INFO - Received POST request for /PhoneBook/add with data full_name='Siddhraj Skolanki' phone_number='+1(703)111-2121' token='string'
+2023-04-21 19:27:55,974 - phonebook_api - ERROR - Person already exists in the database
+2023-04-21 19:28:04,992 - phonebook_api - INFO - Received POST request for /PhoneBook/add with data full_name='Siddhraj Skolanki' phone_number='+1(703)211-2121' token='string'
+2023-04-21 19:28:04,993 - phonebook_api - INFO - Person added successfully
+2023-04-21 21:28:07,446 - phonebook_api - INFO - Received POST request for /PhoneBook/add with data full_name='Siddhraj Solanki' phone_number='12952.36415' token='string'
+2023-04-21 21:28:07,448 - phonebook_api - ERROR - Person already exists in the database
+2023-04-21 21:32:10,479 - phonebook_api - INFO - Received GET request for /PhoneBook/list
+2023-04-21 21:32:10,479 - phonebook_api - INFO - Returned 2 records
+2023-04-21 21:42:50,567 - phonebook_api - INFO - Received valid credentials for /PhoneBook/generateToken:User created successfully
+2023-04-21 21:49:55,309 - phonebook_api - INFO - Received PUT request for /PhoneBook/deleteByName with data Siddhraj Solanki
+2023-04-21 21:49:55,310 - phonebook_api - INFO - Person deleted successfully
+2023-04-21 21:52:23,396 - phonebook_api - INFO - Received GET request for /PhoneBook/list
+2023-04-21 21:52:23,397 - phonebook_api - INFO - Returned 1 records

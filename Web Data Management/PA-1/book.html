@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        /* styling for option and label tags */
+        option,
+        label {
+            color: hsl(0, 0%, 0%);
+            text-align: center;
+        }
+
+        /* styling for body */
+        body {
+            background-color: #90B4B7;
+        }
+
+        /* styling for heading */
+        .heading {
+            text-align: center;
+            background-color: hsl(0, 0%, 0%);
+            width: 100%;
+            height: 85px;
+            position: absolute;
+            top: 0px;
+            left: 0px;
+            right: 0px;
+            bottom: px;
+            color: aliceblue;
+        }
+
+        /* styling for form */
+        .form {
+            text-align: center;
+            position: absolute;
+            top: 100px;
+            border: 1px solid #6D6D6D;
+            padding: 3px;
+            margin: 2px;
+            left: 400px;
+            right: 400px;
+            border-radius: 3px;
+            box-shadow: 4px 4px 5px #121111;
+        }
+
+        /* styling for submit button */
+        .fcc-btn {
+            background-color: #1243bd;
+            color: white;
+            padding: 15px 25px;
+            text-decoration: none;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- html code for heading -->
+    <div class="heading">
+        <h2>Simply fill out the form below and we'll be in touch.</h2>
+    </div>
+    <!-- html code for form -->
+    <div class="form">
+        <form>
+            <label for="fname">First name:</label><br>
+            <input type="text" id="fname" name="fname" value=""><br><br>
+            <label for="lname">Last name:</label><br>
+            <input type="text" id="lname" name="lname" value=""><br><br>
+            <label for="emailid">Email:</label><br>
+            <input type="email" id="emailid" name="emailid" value=""><br><br>
+            <label for="num">Number:</label><br>
+            <input type="text" id="num" name="num" value=""><br><br>
+            <label for="adddress">Address:</label><br>
+            <input type="text" id="address" name="address" value=""><br><br>
+            <label for="city">City:</label><br>
+            <input type="text" id="city" name="city" value=""><br><br>
+            <label for="state">State:</label><br>
+            <input type="text" id="state" name="state" value=""><br><br>
+            <label for="zip">ZIP:</label><br>
+            <input type="text" id="zip" name="zip" value=""><br><br>
+            <label for="date">Select A Date:</label><br>
+            <input type="date" id="date" name="date"> <br><br>
+            <label for="cars">Choose a Service:</label><br>
+            <select name="Select a Service" size="1">
+                <option value="1"> INDIVIDUAL LEASES </option>
+                <option value="2"> LEASE TERM & RENTAL INSTALLMENTS </option>
+                <option value="3"> APPLICATION PROCESS </option>
+                <option value="4"> ROOMMATE MATCHING & REQUESTS </option>
+            </select>
+            <br><br>
+            <input type="submit" class="fcc-btn" name="myInput" value="Submit">
+        </form>
+    </div>
+</body>
+
+</html>
